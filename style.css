@@ -1379,3 +1379,14 @@ footer {
     transform: translateX(-100%);
   }
 }
+
+@media screen and (max-width: 768px) {
+
+  .menu-principal {
+      flex-direction: column; 
+  }
+  h1 {
+      font-size: 1.5em; 
+  }
+  
+}
