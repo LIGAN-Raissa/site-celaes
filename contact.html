@@ -66,7 +66,9 @@
               <p>Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les plus brefs délais.</p>
             </div>
             
-            <form class="contact-form" action="#" method="POST" data-netlify="true">
+            <form name="contact" action="/merci.html" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" /> 
+    
               <div class="form-group">
                 <label for="nom">Nom complet *</label>
                 <input type="text" id="nom" name="nom" required>

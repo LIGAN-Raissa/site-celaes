@@ -852,7 +852,7 @@ section {
   line-height: 1.6;
 }
 
-.contact-form {
+.form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
