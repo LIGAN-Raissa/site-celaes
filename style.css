@@ -1384,9 +1384,23 @@ footer {
 
   .menu-principal {
       flex-direction: column; 
+      align-items: center;
   }
   h1 {
       font-size: 1.5em; 
   }
-  
+  h2 {
+    font-size: 1.5em; 
+}
+
+
+.section-principale {
+    padding: 20px; 
+}
+
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
 }
