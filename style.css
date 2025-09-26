@@ -1397,6 +1397,33 @@ footer {
   .menu-principal.active {
     display: flex; 
 }
+.menu-principal a {
+  color: #333 !important; 
+  display: block; 
+  padding: 10px 20px; 
+  text-align: center;  
+}
+
+
+.menu-principal a:hover {
+  background-color: #f0f0f0; 
+  color: #007bff !important; 
+}
+.header-container h1, .header-container a { 
+  text-align: left !important;
+  margin-right: auto; 
+  padding-left: 0;
+}
+.header-container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start; 
+  align-items: flex-start;
+  width: 100%; 
+  padding: 0.8rem 1rem; 
+}
+
 .hamburger-btn {
   display: flex;  
   flex-direction: column;
@@ -1408,6 +1435,7 @@ footer {
   border: none;
   cursor: pointer;
   padding: 0;
+  
 }
 .bar {
   display: block;
@@ -1436,7 +1464,4 @@ img {
     max-width: 100%; 
     height: auto;
 }
-}
-.hamburger-btn {
-  display: none;
 }
