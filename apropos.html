@@ -158,4 +158,15 @@
     </div>
   </footer>
 </body>
+<script>
+  const hamburgerBtn = document.querySelector('.hamburger-btn');
+  const menuMobile = document.getElementById('menu-mobile');
+
+  if (hamburgerBtn && menuMobile) {
+       hamburgerBtn.addEventListener('click', () => {
+          menuMobile.classList.toggle('active');
+          hamburgerBtn.classList.toggle('active');
+      });
+  }
+</script>
 </html>

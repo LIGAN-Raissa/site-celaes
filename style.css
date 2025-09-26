@@ -1398,7 +1398,7 @@ footer {
     display: flex; 
 }
 .hamburger-btn {
-  display: flex; 
+  display: flex;  
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -1417,9 +1417,8 @@ footer {
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
-.hamburger-btn {
-  display: none; 
-}
+
+
   h1 {
       font-size: 1.5em; 
   }
@@ -1437,4 +1436,7 @@ img {
     max-width: 100%; 
     height: auto;
 }
+}
+.hamburger-btn {
+  display: none;
 }
