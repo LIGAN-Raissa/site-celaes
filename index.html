@@ -11,7 +11,13 @@
     <div class="header-container">
       <h1>CELAES</h1>
       <nav>
-        <ul>
+        <button class="hamburger-btn" aria-label="Menu principal">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </button>
+  
+      <ul id="menu-mobile" class="menu-principal">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="apropos.html">À propos</a></li>
@@ -141,5 +147,12 @@
   </footer>
 
 
+  const hamburgerBtn = document.querySelector('.hamburger-btn');
+  const menuMobile = document.getElementById('menu-mobile');
+  
+  hamburgerBtn.addEventListener('click', () => {
+      menuMobile.classList.toggle('active'); 
+      hamburgerBtn.classList.toggle('active'); 
+  });
 </body>
 </html>
