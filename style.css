@@ -1411,19 +1411,21 @@ footer {
 }
 .header-container h1, .header-container a { 
   text-align: left !important;
-  margin-right: auto; 
+  margin-right: 0; 
   padding-left: 0;
 }
 .header-container {
   
   display: flex;
-  flex-direction: column;
-  justify-content:flex-start; 
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content:space-between; 
+  align-items: center;
   width: 100%; 
   padding: 0.8rem 1rem; 
 }
-
+header nav {
+  margin-left: auto;
+}
 .hamburger-btn {
   display: flex;  
   flex-direction: column;
@@ -1441,7 +1443,7 @@ footer {
   display: block;
   width: 100%;
   height: 3px;
-  background-color: #333; 
+  background-color: white; 
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
